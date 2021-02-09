@@ -1,0 +1,161 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.1.46",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "node-0",
+            "scale" : [
+                0.10093766450881958,
+                0.10093766450881958,
+                0.10093766450881958
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Node.002",
+            "translation" : [
+                0.2656090557575226,
+                -30.95645523071289,
+                -2.793100595474243
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "Node.001",
+            "translation" : [
+                -0.2656090557575226,
+                30.95645523071289,
+                2.793100595474243
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Node",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "White",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    1,
+                    1,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9699476361274719
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "buffer-0-mesh-0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 12,
+            "max" : [
+                56.29629898071289,
+                93.12073516845703,
+                23.836883544921875
+            ],
+            "min" : [
+                -56.29629898071289,
+                -88.15177154541016,
+                -12.30172061920166
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 12,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 12,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 144,
+            "byteOffset" : 144
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 96,
+            "byteOffset" : 288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 24,
+            "byteOffset" : 384
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 408,
+            "uri" : "data:application/octet-stream;base64,AAAAALVNsMLZ00RBmBlAvtE9ukLwsb5BMkigQbVNsELZ00TBMkigQbVNsELZ00TBaS9hQk4DtUJDSZJAAAAAALVNsMLZ00RBqFqSwbVNsELZ00TBmBlAvtE9ukLwsb5BAAAAALVNsMLZ00RBaS9hwk4DtUJDSZJAqFqSwbVNsELZ00TBAAAAALVNsMLZ00RBLtdev+64+Dxmifu+Ltdev+64+Dxmifu+Ltdev+64+Dxmifu+E3nZPrhuML72hWO/E3nZPrhuML72hWO/E3nZPrhuML72hWO/61tkP5qr8jyt6ua+61tkP5qr8jyt6ua+61tkP5qr8jyt6ua+zUPRvnWhK77JqmW/zUPRvnWhK77JqmW/zUPRvnWhK77JqmW/AAAAPwAAgL8AAAA/AAAAAEKwMj8AAAAAQrAyPwAAAAAAAIA/AAAAAAAAAD8AAIC/ZKGfPgAAAAAAAAA/AAAAAAAAAD8AAIC/AAAAAAAAAABkoZ8+AAAAAAAAAD8AAIC/AAABAAIAAwAEAAUABgAHAAgACQAKAAsA"
+        }
+    ]
+}
